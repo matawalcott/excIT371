@@ -1,54 +1,43 @@
-/* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #969ba1;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #efecc0;
     color: #333;
     margin: 0;
     padding: 0;
 }
-
-/* Navigation Menu */
 nav {
-    background: #8f8f96;
+    background:#efecc0;
     padding: 1rem;
     text-align: center;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
-
 nav ul li a {
     text-decoration: none;
-    color: #bd1111;
+    color: #3b4045;
     font-weight: bold;
 }
-
 nav ul li a:hover {
-    color: #0bb936;
+    color: #d8d38d;
 }
-
-/* Typography */
 h1, h2, h3 {
     color: #222;
 }
-
-/* Button Styles */
 button {
-    background: #0bac06;
+    color: #d8d38d;
+    background: ;
     color: #fff;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
 }
-
 button:hover {
-    background: #15b415;
+    background: #d8d38d;
 }
