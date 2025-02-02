@@ -26,12 +26,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #bd1111;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #0077b6;
+    color: #0bb936;
 }
 
 /* Typography */
@@ -41,7 +41,7 @@ h1, h2, h3 {
 
 /* Button Styles */
 button {
-    background: #0077b6;
+    background: #0bac06;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -50,5 +50,5 @@ button {
 }
 
 button:hover {
-    background: #005f8c;
+    background: #15b415;
 }
