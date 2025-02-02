@@ -6,30 +6,37 @@ body {
     padding: 0;
     text-align: center;
 }
+
 nav {
     background:#efecc0;
     padding: 1rem;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #3b4045;
     font-weight: bold;
 }
+
 nav ul li a:hover {
     color: #d8d38d;
 }
+
 h1, h2, h3 {
     color: #222;
 }
+
 button {
     color: #d8d38d;
     background: ;
@@ -39,6 +46,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 button:hover {
     background: #d8d38d;
 }
