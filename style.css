@@ -50,3 +50,9 @@ button {
 button:hover {
     background: #d8d38d;
 }
+
+.banner {
+    width: 100%;       /* Make it stretch across the page */
+    height: auto;      /* Maintain aspect ratio */
+    display: block;    /* Remove extra spacing below */
+}
