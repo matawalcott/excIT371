@@ -51,8 +51,9 @@ button:hover {
     background: #d8d38d;
 }
 
-.banner {
-    width: 100%;
-    height: auto; 
-    display: block;
+header {
+    background: url("images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 250px;  
 }
+
