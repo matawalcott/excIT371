@@ -54,6 +54,9 @@ button:hover {
 header {
     background: url("banner-image.jpg") no-repeat center center;
     background-size: cover;
-    height: 250px;  
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
