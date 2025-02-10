@@ -52,7 +52,7 @@ button:hover {
 }
 
 .banner {
-    width: 100%;       /* Make it stretch across the page */
-    height: auto;      /* Maintain aspect ratio */
-    display: block;    /* Remove extra spacing below */
+    width: 100%;
+    height: auto; 
+    display: block;
 }
