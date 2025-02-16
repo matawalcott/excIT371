@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const welcomeMessage = document.getElementById("welcomeMessage");
+
     if (welcomeMessage) {
         const currentHour = new Date().getHours();
         let greeting = "Hello!";
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     const downloadButton = document.getElementById("downloadResume");
-
+    
     if (downloadButton) {
         downloadButton.addEventListener("click", () => {
             const pdfPath = "MWRedacted.pdf";
