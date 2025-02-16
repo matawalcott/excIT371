@@ -1,24 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const welcomeMessage = document.getElementById("welcomeMessage");
-
     if (welcomeMessage) {
         const currentHour = new Date().getHours();
         let greeting = "Hello!";
 
         if (currentHour >= 6 && currentHour < 12) {
             greeting = "Good Morning!";
-        } else if (currentHour >+ 12 && currentHour < 18) {
+        } else if (currentHour >= 12 && currentHour < 18) {
             greeting = "Good Afternoon!";
         } else {
             greeting = "Good Evening!";
         }
-        welcomeMessage.textContent = '${greeting} Thank you for visiting my personal Portfolio'
+        welcomeMessage.textContent = '${greeting} Thank you for visiting my personal portfolio';
     }
 
 
     const downloadButton = document.getElementById("downloadResume");
-    
     if (downloadButton) {
         downloadButton.addEventListener("click", () => {
             const pdfPath = "MWRedacted.pdf";
