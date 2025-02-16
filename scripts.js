@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
         downloadButton.addEventListener("click", () => {
             const pdfPath = "MWRedacted.pdf";
 
-            const link =doncument.createElement("a");
+            const link =document.createElement("a");
             link.href = pdfPath;
             link.download = "MW_Resume.pdf";
             document.body.appendChild(link);
             link.click();
-            document.body.removeChild(Ilink);
+            document.body.removeChild(link);
 
         });
     }
-});
+})
