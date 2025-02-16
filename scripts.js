@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             greeting = "Good Evening!";
         }
-        welcomeMessage.textContent = '${greeting} Thank you for visiting my personal portfolio';
+        welcomeMessage.textContent = `${greeting} Thank you for visiting my personal portfolio`;
     }
 
 
