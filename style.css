@@ -79,6 +79,10 @@ form {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -92,6 +96,7 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 8px;
     font-family: sans-serif;
+    width: 100%;
 }
 
 button {
@@ -113,14 +118,9 @@ button:hover {
     display: none;
 }
 
-.success {
-    color: #4CAF50;
+#formFeedback {
+    color: #4CAF50
     font-weight: bold;
-    margin-top: 20px;
-}
-
-.error {
-    color: #e74c3c;
-    font-weight: bold;
+    text-align: center;
     margin-top: 20px;
 }
