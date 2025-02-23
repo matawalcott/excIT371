@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const message = document.getElementById("message").value.trim();
     
                 if (name === "" || email === "" || message === "") {
-                    showFeedback("Please fill in all fields.", "error");
+                    showFeedback("All fields are required.", "error");
                     return;
                 }
     
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     return;
                 }
     
-                showFeedback("Your message has been successfully submitted!", "success");
+                showFeedback("Your message has been sent!", "success");
     
                 form.reset();
             });
