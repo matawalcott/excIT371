@@ -80,7 +80,7 @@ form {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background: coral;
+    background: #eeebc6;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +92,7 @@ label {
 
 input, textarea {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-family: sans-serif;
