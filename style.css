@@ -91,7 +91,8 @@ label {
 }
 
 input, textarea {
-    padding: 10px 20px;
+    padding: 4px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-family: sans-serif;
